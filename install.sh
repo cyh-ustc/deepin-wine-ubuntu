@@ -3,6 +3,6 @@ cd `dirname $0`; pwd
 dpkg --add-architecture i386
 apt update
 dpkg -i *.deb
-apt install -f
+apt install -y -f
 
 
